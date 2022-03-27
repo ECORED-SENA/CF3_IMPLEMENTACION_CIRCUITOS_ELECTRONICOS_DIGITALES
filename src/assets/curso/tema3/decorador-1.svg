@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.314" height="40.314" viewBox="0 0 137.314 40.314">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="1" y="43" width="137.314" height="40.314" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_565468" data-name="Grupo 565468" transform="translate(-840.789 -895.685)">
+    <g id="Grupo_de_desplazamiento_3" data-name="Grupo de desplazamiento 3" transform="translate(839.789 852.685)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Grupo_565467" data-name="Grupo 565467" transform="translate(-839.789 -852.685)">
+        <g id="Grupo_565142" data-name="Grupo 565142" transform="translate(2203.404 -1513.479) rotate(45)">
+          <g id="Grupo_560848" data-name="Grupo 560848" transform="translate(342.494 2505.804)">
+            <circle id="Elipse_5039" data-name="Elipse 5039" cx="6.36" cy="6.36" r="6.36" transform="translate(486.306 87.196)" fill="#f3c178"/>
+            <circle id="Elipse_5040" data-name="Elipse 5040" cx="6.36" cy="6.36" r="6.36" transform="translate(460.322 113.18)" fill="#f3c178"/>
+            <circle id="Elipse_5041" data-name="Elipse 5041" cx="6.36" cy="6.36" r="6.36" transform="translate(493.635 87.196)" fill="none" stroke="#010101" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.413"/>
+            <circle id="Elipse_5042" data-name="Elipse 5042" cx="6.36" cy="6.36" r="6.36" transform="translate(467.651 113.18)" fill="none" stroke="#010101" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.413"/>
+          </g>
+          <g id="Grupo_560849" data-name="Grupo 560849" transform="translate(293.645 2555.804)">
+            <path id="Trazado_159212" data-name="Trazado 159212" d="M6.36,0A6.36,6.36,0,1,1,0,6.36,6.36,6.36,0,0,1,6.36,0Z" transform="translate(486.306 87.196)" fill="#f3c178"/>
+            <circle id="Elipse_5044" data-name="Elipse 5044" cx="6.36" cy="6.36" r="6.36" transform="translate(460.322 113.18)" fill="#f3c178"/>
+            <circle id="Elipse_5045" data-name="Elipse 5045" cx="6.36" cy="6.36" r="6.36" transform="translate(493.635 87.196)" fill="none" stroke="#010101" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.413"/>
+            <circle id="Elipse_5046" data-name="Elipse 5046" cx="6.36" cy="6.36" r="6.36" transform="translate(467.651 113.18)" fill="none" stroke="#010101" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.413"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
