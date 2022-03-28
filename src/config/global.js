@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Diagnóstico de circuitos electrónicos digitales',
     descripcionCurso:
       'En este componente formativo se tratan temas relacionados con la prueba de sistemas electrónicos digitales, verificación de diagramas, cálculos necesarios y la comprobación en programas de simulación.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
