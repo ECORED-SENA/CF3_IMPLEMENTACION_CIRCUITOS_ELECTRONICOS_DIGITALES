@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Diagnóstico de circuitos electrónicos digitales',
     descripcionCurso:
       'En este componente formativo se tratan temas relacionados con la prueba de sistemas electrónicos digitales, verificación de diagramas, cálculos necesarios y la comprobación en programas de simulación.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -298,6 +298,12 @@ export default {
       {
         nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
