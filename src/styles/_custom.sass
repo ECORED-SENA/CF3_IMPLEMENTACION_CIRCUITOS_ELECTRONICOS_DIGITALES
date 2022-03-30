@@ -8,6 +8,11 @@ p.f-13
   margin: 0 auto
 .r-10
   border-radius: 10px
+.mt-n1
+  margin-top: -0.25rem !important  
+.mt-n4
+  margin-top: -1.5rem !important  
+
 
 .bg-blanco
   background-color: #FFF  
@@ -15,6 +20,11 @@ p.f-13
   background-color: #C0FEF5   
 .bg-azul2
   background-color: #EBF6FF  
+.bg-azul3
+  background-color: #87D6FF  
+.bg-morado
+  background-color: #E3A9FB  
+
 .bg-degrade-azul
   background: rgb(0,87,160)
   background: linear-gradient(0deg, rgba(0,87,160,1) 0%, rgba(69,162,236,1) 100%)
@@ -47,7 +57,34 @@ p.f-13
   @media screen and (max-width: 992px)
     position: inherit
 
+.tabs-a__tab 
+  background-color: #E8E8E8
 
-
-
-
+.linea-tiempo-e:before
+  content: ''
+  position: absolute
+  top: 8%
+  bottom: 44%
+  left: 4%
+  width: 5px
+  border-left: 4px dotted #B2B1B1
+  background-color: transparent
+  @media screen and (min-width: 1395px)
+    left: 3.5%
+  @media screen and (max-width: 992px)
+    left: 7.5% 
+    top: 5%
+    bottom: 53%
+.linea-tiempo-e__item
+  padding: 6px 0  
+.linea-tiempo-e__item__header 
+  width: 0%
+.linea-tiempo-e__item__header:before
+  width: 27px
+  height: 27px
+.linea-tiempo-e.color-acento-contenido .linea-tiempo-e__item:nth-child(1) .linea-tiempo-e__item__header:before
+  border-color: #89DED2
+.linea-tiempo-e.color-acento-contenido .linea-tiempo-e__item:nth-child(2) .linea-tiempo-e__item__header:before
+  border-color: #BF66E3
+.linea-tiempo-e.color-acento-contenido .linea-tiempo-e__item:nth-child(3) .linea-tiempo-e__item__header:before
+  border-color: #78C8F2   
