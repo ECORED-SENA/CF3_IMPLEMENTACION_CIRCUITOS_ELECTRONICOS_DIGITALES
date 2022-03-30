@@ -48,8 +48,40 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Equipos
 
-    p.mb-4(data-aos="fade") Medir es comparar una magnitud con una unidad preestablecida, la cual está referida a un patrón de medición, que es el que da las pautas para determinar la naturaleza de la medición.  Los instrumentos utilizados en cada caso es un aspecto importante a tener en cuenta en estos procesos. Algunos, en ocasiones, pueden sufrir averías si no se utilizan de forma adecuada.
+    p.mb-5(data-aos="fade") Medir es comparar una magnitud con una unidad preestablecida, la cual está referida a un patrón de medición, que es el que da las pautas para determinar la naturaleza de la medición.  Los instrumentos utilizados en cada caso es un aspecto importante a tener en cuenta en estos procesos. Algunos, en ocasiones, pueden sufrir averías si no se utilizan de forma adecuada.
 
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1-1-img.jpg')})`}" )
+          .bloque-texto-g__texto.p-4.py-md-5
+            p.mb-0 Por ejemplo, si se tiene un multímetro seleccionado como ohmímetro y, por accidente medimos tensión es probable que el instrumento sufra algún daño, esa es una desventaja de incluir múltiples instrumentos (multímetro) en un solo equipo. 
+
+    p.mb-5(data-aos="fade") Aparte del multímetro, el equipo de medición más utilizado en digitales es la punta lógica y para el análisis de circuitos secuenciales, el analizador lógico; sin embargo, para este caso el enfoque estará en la punta lógica.
+
+
+
+
+
+
+    Separador
+
+
+    #t_1_2
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.2 Métodos
+
+    .row.justify-content-center.mb-3
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right")
+        img.mb-3(src='@/assets/curso/tema1-2-img.png' alt='Equipo de diagnóstico avanzado, tomado de Cedes')
+      .col-md-6(data-aos="fade-left")
+        p Siempre que se habla de métodos de medición hay algo en común “comparar”, precisamente porque eso es lo que se hace cuando se mide, se compara; para esto hay que definir un patrón y ese patrón es el que sirve de guía para que los demás se comparen con respecto a él. Estos patrones se definen utilizando la mayor tecnología posible y los valores se obtienen de procesos donde no dependa de la intervención humana, esto minimiza el error.
+        p.mb-0 Para las magnitudes eléctricas todas las unidades están bien definidas y también los instrumentos de medición, por lo que todas las mediciones efectuadas son de manera directa, aquí solo se deben calcular e interpretar.
+        p.bold En digitales solo se debe determinar si hay o no presencia de tensión (diferencia de potencial) y de cómo cambia en el tiempo (frecuencia eléctrica).
+
+
+    p El método más común de medición en digitales es utilizando la punta lógica y esta indica el estado actual de la entrada o salida mediante luces, casi siempre se usa una luz indicadora en verde para indicar el estado alto o 1 y una luz indicadora roja para indicar estado bajo o 0 <b>lógico</b>.
 
 
 
