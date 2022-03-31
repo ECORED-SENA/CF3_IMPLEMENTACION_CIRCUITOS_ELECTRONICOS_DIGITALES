@@ -127,6 +127,8 @@ export default {
   top: 60%
   left: -8%
   width: 250px
+  @media screen and (min-width: 1395px)
+    left: -2%
 @keyframes float
 	0%
   	transform: translatey(0px)
@@ -141,6 +143,8 @@ export default {
   top: 74%
   left: 54.6%
   width: 60px
+  @media screen and (min-width: 1395px)
+    left: 54.3%
 @keyframes rotate
 	0%
     transform: rotate(360deg)

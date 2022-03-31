@@ -31,10 +31,40 @@
       .col-md-9
         p.mb-0 Las normas aplicables a los procesos de medición también deben ser tenidas en cuenta, pues estas buscan proteger la vida y preservar el medio ambiente. Es importante consultarlas y aplicarlas en el desarrollo de los procesos de medición.
 
-    p.mb-4(data-aos="fade") Ahora bien, para desarrollar este tipo de procedimientos es necesario recordar y comprender los conceptos que hay alrededor del mismo. Entre ellos, la magnitud eléctrica, la cual se refiere a aquellos procesos físicos asociados al movimiento de electrones y que pueden ser controlados, aprovechados y por lo tanto, se pueden medir. A continuación, se presentan los tipos de magnitudes eléctricas.
+    p.mb-5(data-aos="fade") Ahora bien, para desarrollar este tipo de procedimientos es necesario recordar y comprender los conceptos que hay alrededor del mismo. Entre ellos, la magnitud eléctrica, la cual se refiere a aquellos procesos físicos asociados al movimiento de electrones y que pueden ser controlados, aprovechados y por lo tanto, se pueden medir. A continuación, se presentan los tipos de magnitudes eléctricas.
 
+    .row.justify-content-center
+      .col-md-11
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1-infografia.svg', alt='Tipos de magnitudes eléctricas')
 
+          .bg-1.color-acento-botones.p-3(x="36.5%" y="26.5%" numero="")
+            p.mb-0 <b>Unidad de medida:</b> Ohmio (Ω). 
+            p.mb-0 <b>Instrumento de medición:</b> Ohmímetro. 
+            p.mb-0 <b>Elemento asociado:</b> Resistor o potenciómetro.
+          .bg-1.color-acento-botones.p-3(x="33%" y="49%" numero="")
+            p.mb-0 <b>Unidad de medida:</b> Amperio (A). 
+            p.mb-0 <b>Instrumento de medición:</b> Amperímetro. 
+            p.mb-0 <b>Elemento asociado:</b> Fuente de corriente.
+          .bg-1.color-acento-botones.p-3(x="36.5%" y="71.5%" numero="")
+            p.mb-0 <b>Unidad de medida:</b> Voltio (V). 
+            p.mb-0 <b>Instrumento de medición:</b> Voltímetro. 
+            p.mb-0 <b>Elemento asociado:</b> Batería o fuente de poder.  
 
+          .bg-1.color-acento-botones.p-3(x="64.5%" y="26.5%" numero="")
+            p.mb-0 <b>Unidad de medida:</b> Faradio (F). 
+            p.mb-0 <b>Instrumento de medición:</b> Capacímetro.
+            p.mb-0 <b>Elemento asociado:</b> Condensador, filtro..
+          .bg-1.color-acento-botones.p-3(x="68%" y="49%" numero="")
+            p.mb-0 <b>Unidad de medida:</b> Henrio (H).
+            p.mb-0 <b>Instrumento de medición:</b> Inductómetro. 
+            p.mb-0 <b>Elemento asociado:</b> Bobina o transformador.
+          .bg-1.color-acento-botones.p-3(x="64.5%" y="71.5%" numero="")
+            p.mb-0 <b>Unidad de medida:</b> Hertz (Hz).
+            p.mb-0 <b>Instrumento de medición:</b> Osciloscopio. 
+            p.mb-0 <b>Elemento asociado:</b> Generador de señal.    
 
 
     .row.justify-content-center.cajon.color-acento-contenido.p-4.mx-1(data-aos="fade-down")
@@ -60,10 +90,15 @@
 
     p.mb-5(data-aos="fade") Aparte del multímetro, el equipo de medición más utilizado en digitales es la punta lógica y para el análisis de circuitos secuenciales, el analizador lógico; sin embargo, para este caso el enfoque estará en la punta lógica.
 
-
-
-
-
+    .row.d-flex.tarjetas1-1.justify-content-around
+      .col-md-6.bg-morado.r-10.p-0.mb-4.mb-md-0
+        h3.text-center.mb-0.p-3 La punta lógica 
+        img(src='@/assets/curso/tema1-1-img2.jpg' alt='La punta lógica')
+        p.mb-0.p-4.py-5 Permite identificar estados en la entrada o salida de un determinado componente, pero estos estados suelen ser estáticos; para el caso de estados que cambian con el tiempo, esta solo se limita a mostrar información por medio de un indicador que es cambiante, pero no indica  la frecuencia a la que lo hace; para estos casos es necesario utilizar el analizador lógico. 
+      .col-md-6.bg-azul4.r-10.p-0.mb-4.mb-md-0
+        h3.text-center.mb-0.p-3 Analizador lógico 
+        img(src='@/assets/curso/tema1-1-img3.jpg' alt='Analizador lógico')
+        p.mb-0.p-4.py-5 Este equipo brinda información en tiempo real de los cambios de 0 y 1  lógico en determinados puntos de un circuito digital, generalmente se componen de múltiples entradas y muestran en pantalla integrada o conectado al PC, el comportamiento de las variables del circuito.
 
     Separador
 
