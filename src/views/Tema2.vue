@@ -55,8 +55,8 @@
         .col-md-12
           .wrap-player
             audio(controls='')(style= "width: 100%")
-              //source(src='../../public/downloads/Arquitectura.mp3' type='audio/mp3')
-              //|  Your browser does not support the audio tag
+              source(src='../../public/downloads/Deteccion_falla.wav' type='audio/wav')
+              |  Your browser does not support the audio tag
       .tarjeta.bg-azul2.r-10.p-4(titulo="Aislar el problema")
         h4 Aislar el problema
         p Una vez detectado el problema se debe aislar, es decir, verificar que sea solo este y que los circuitos asociados estén en funcionamiento. 
