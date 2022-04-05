@@ -13,13 +13,12 @@
       .col-md-6(data-aos="fade-left")
         p  Las principales fallas en circuitos digitales se originan en la fuente de alimentación, estos módulos generan fluctuaciones que, en circuitos digitales de alta velocidad, es suficiente para generar una pérdida de un dato, un bit cambiado en una información puede repercutir en un mal funcionamiento, es por eso que en la mayoría de los sistemas digitales se incluyen procesos de detección de errores. La siguiente figura presenta un ejemplo de ello.
     
-    .titulo-sexto.color-acento-contenido.mb-md-2(data-aos="fade-right")
-      p.mb-0 <b>Figura 2</b> Ejemplo en la identificación de fallas
+    p.mb-1(data-aos="fade-right") <b>Figura 2.</b> Ejemplo en la identificación de fallas
 
     .row.align-items-center.justify-content-end.p-relative
       .col-md-5.texto-destacado-azul.p-0
         p.mb-0.p-4 En un disco compacto, por ejemplo, debido a la alta manipulación de este se presentan muchas pérdidas de datos, rayones, exposición al sol y altas temperatura, que eran causantes del deterioro de datos grabados, lo que generaba fallas de funcionamiento en el dispositivo, es por esto que la mayoría de datos grabados en un CD eran utilizados para el control de pérdida de datos.   
-        p.mb-0.bg-azul.p-4 Son precisamente los sistemas con memoría los que presentan mayores fallas, puesto que los datos grabados pueden sufrir alteraciones por fenómenos externos.
+        p.mb-0.bg-azul.p-4 Son precisamente los sistemas con memoria los que presentan mayores fallas, puesto que los datos grabados pueden sufrir alteraciones por fenómenos externos.
       .col-md-5.col-lg-6.tema2-img-absoluta.p-0
         img(src='@/assets/curso/tema2-img.png', alt='Imagen decorativa')
 
@@ -34,9 +33,7 @@
     
     p.mb-5(data-aos="fade") Las fallas más comunes en estos circuitos se presentan debido a los siguientes procesos que se muestran en la figura 3.
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      p.mb-0 <b>Figura 3</b> Fallas comunes
-
+    p.mb-3(data-aos="fade-right") <b>Figura 3.</b> Fallas comunes
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
         figure

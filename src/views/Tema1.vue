@@ -9,8 +9,7 @@
   
     p.mb-4(data-aos="fade") Un paso importante cuando se están analizando circuitos digitales es el proceso de medición, porque no solo se limita a tomar valores con un instrumento, sino que va mucho más allá, tal como lo presenta la siguiente figura.  
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      p.mb-0 <b>Figura 1</b> Aspectos del proceso de medición
+    p.mb-3(data-aos="fade-right") <b>Figura 1.</b> Aspectos del proceso de medición
 
     .row.justify-content-center.mb-5
       .col-md-4(data-aos="fade-right")

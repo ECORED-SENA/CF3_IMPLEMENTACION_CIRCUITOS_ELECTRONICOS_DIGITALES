@@ -56,9 +56,8 @@
 
     p.mb-5(data-aos="fade") Dentro de los informes finales presentados, una vez culminada la etapa implementación, se anexan los documentos técnicos del circuito diseñado, como por ejemplo, los diagramas esquemáticos,  los archivos de fabricación si se hace necesaria para las máquinas de control numérico. Cada informe responde a aspectos específicos, tal como se aprecia en la siguiente figura.
 
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 <b>Figura 4</b> Informes técnicos
 
+    p.mb-3(data-aos="fade-right") <b>Figura 4.</b> Informes técnicos
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
         figure

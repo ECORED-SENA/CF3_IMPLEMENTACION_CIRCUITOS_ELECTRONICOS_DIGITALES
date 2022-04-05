@@ -125,23 +125,25 @@ export default {
   },
   complementario: [
     {
-      texto: 'Equipos y <em>software</em> de diagnóstico',
+      texto:
+        'MCI, Electronics. (2021). Tutorial Analizador Lógico USB [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=3ISKULwwU2M',
     },
     {
-      texto: 'Gestión de documentos',
+      texto: 'Alldatasheet. (2021). Electronic components datasheet search. ',
       tipo: 'Página web de consulta',
       link: 'https://alldatasheet.com',
     },
     {
-      texto: 'Medición de variables eléctricas',
+      texto: 'Arboledas, D. (2011). Electrónica básica. Ediciones de la U.  ',
       tipo: 'Libro',
       link:
         'https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=7120.&pg=&ed=',
     },
     {
-      texto: 'Procedimientos de identificación de fallas',
+      texto:
+        'Tocci, R., Widmer, N., Moss, G., Romero, E., Alfonso V., Acuña, R. (2007). Sistemas digitales: principios y aplicaciones (10a. ed) Pearson Educación. ',
       tipo: 'Libro',
       link:
         'https://books.google.fr/books?id=bmLuH0CsIh0C&printsec=copyright&hl=es#v=onepage&q&f=false',
@@ -176,7 +178,7 @@ export default {
     {
       termino: 'Sistema combinacional',
       significado:
-        'DefiSistema lógico en el que las salidas dependen exclusivamente del valor de las entradas.nición',
+        'Sistema lógico en el que las salidas dependen exclusivamente del valor de las entradas.',
     },
     {
       termino: 'Sistemas secuenciales',
